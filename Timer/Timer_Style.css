@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Iranian Sans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../J25/Fonts/Iranian\ Sans.ttf') format('embedded-open');
+}
+*{
+    font-family: 'Iranian Sans';
+}
+h1{
+    text-align: center;
+}
+.main_box{
+    background-color: rgb(243, 230, 17);
+    width: 600px;
+    height: 85px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.box_item{
+    border: 1px solid#999;
+    border-radius: 3px;
+    width:150px;
+    height: 65px;
+    margin: 10px;
+    text-align: center;
+}
+.box_title{
+    color: blue;
+    font-size: 1rem;
+}
+.box_number{
+    color: #000;
+    font-size: 1.8rem;
+}
