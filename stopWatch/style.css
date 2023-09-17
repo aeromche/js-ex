@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 130px;
+}
+
+button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.lap{
+    margin: 20px 0;
+    font-size: 50px;
+    border-bottom: 3px solid white;
+}
+
+.lap-items{
+    width: 30%;
+    margin: 0 auto;
+}
